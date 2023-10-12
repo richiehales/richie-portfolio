@@ -1,13 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Header  from './features/Header/Header';
 
 function App() {
   return (
+    
     <div className="App">
+      <Header />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Step 1 - Create Nav Bar
         </p>
         <a
           className="App-link"
@@ -15,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Richie Hales Portfolio
         </a>
       </header>
     </div>
