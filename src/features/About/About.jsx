@@ -78,12 +78,15 @@ export function About() {
             Current Job Role
           </Typography>
           <Typography
-            variant="p"
-            align="center"
+            variant="h7"
+            align="left"
             gutterBottom
             >
-            Electrical Controls Engineer. Programming'
-            PLCs, HMI's & servo drive
+              Electrical Controls Engineer. Programming
+              PLCs, HMI's & servo drives. Provide 
+              detailed costings to customer and produce
+              electrical drawings with manuals for system.
+                        
           </Typography>
           <Typography
             variant="h5"
