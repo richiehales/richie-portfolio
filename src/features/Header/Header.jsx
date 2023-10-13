@@ -1,14 +1,16 @@
 import React, { useState } from "react";
-import { Link } from 'react-router-dom';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
+import ButtonGroup from "@mui/material/ButtonGroup";
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
+import HomeIcon from '@mui/icons-material/Home';
+
 
 const Header = () => {
 
@@ -24,7 +26,7 @@ const Header = () => {
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
+      <AppBar position="static" color="primary">
         <Toolbar>
           <IconButton
             size="large"
@@ -43,21 +45,37 @@ const Header = () => {
             onClose={handleClose}
             MenuListProps={{
               'aria-labelledby': 'basic-button',
-            }}          > 
-            <Link to="/About" >
-              <MenuItem onClick={handleClose}>About</MenuItem>
-            </Link>
-            <Link to="/Projects">
-              <MenuItem onClick={handleClose}>Projects</MenuItem>
-            </Link>
-            <Link to="/Contact">
-              <MenuItem onClick={handleClose}>Contact</MenuItem>
-            </Link>
+            }}
+            >
+            <ButtonGroup 
+              orientation="vertical"
+              color="primary"
+              aria-label="vertical contained button group"
+              variant="text"
+              >
+              <Button href="/">                
+                <MenuItem onClick={handleClose}>About</MenuItem>            
+              </Button>
+              <Button href="/Projects">
+                 <MenuItem onClick={handleClose}>Projects</MenuItem>
+              </Button>
+              <Button href="/Contact">
+                <MenuItem onClick={handleClose}>Contact</MenuItem>
+              </Button>
+            </ButtonGroup>
           </Menu>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            News
+          <Typography variant="h5" component="div" sx={{ flexGrow: 1 }}>
+            Richie Hales Portfolio
           </Typography>
-          <Button color="inherit">Contact</Button>
+          <IconButton
+            href="/"
+            size="large"
+            edge="start"
+            color="inherit"
+            aria-label="menu"         
+          >
+            <HomeIcon />
+          </IconButton>        
         </Toolbar>
       </AppBar>
     </Box>
