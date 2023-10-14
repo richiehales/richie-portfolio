@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { About } from './features/About/About';
 import { Projects } from './features/Projects/Projects';
 import { Contact } from './features/Contact/Contact';
+import { Footer } from './features/Footer/Footer'
 import { createTheme, ThemeProvider } from '@mui/material';
 
 
@@ -29,6 +30,7 @@ export function App() {
           <Route path="/Projects" element={ <Projects /> } />
           <Route path="/Contact" element={ <Contact /> } />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </ThemeProvider>
   );

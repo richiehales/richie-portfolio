@@ -85,7 +85,7 @@ export function Header(props) {
             </ButtonGroup>
           </Menu>
           <Typography variant="h5" component="div" sx={{ flexGrow: 1 }}>
-            Richie Hales Portfolio
+            Richie Hales
           </Typography>
           <IconButton
             href="/"
