@@ -1,5 +1,5 @@
 import './App.css';
-import Header  from './features/Header/Header';
+import { Header } from './features/Header/Header';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { About } from './features/About/About';
 import { Projects } from './features/Projects/Projects';
@@ -19,7 +19,7 @@ const theme = createTheme({
 })
 
 
-function App() {
+export function App() {
   return (
     <ThemeProvider theme={theme}>
       <BrowserRouter>  
@@ -34,4 +34,4 @@ function App() {
   );
 }
 
-export default App;
+

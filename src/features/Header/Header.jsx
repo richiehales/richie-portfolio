@@ -29,7 +29,7 @@ HideOnScroll.propTypes = {
   children: PropTypes.element.isRequired,
 };
 
-export default function Header(props) {
+export function Header(props) {
 
   const [anchorEl, setAnchorEl] = useState(null);
   const open = Boolean(anchorEl);
