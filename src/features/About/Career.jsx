@@ -5,8 +5,10 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import HtmlIcon from '@mui/icons-material/Html';
 import CssIcon from '@mui/icons-material/Css';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import JavascriptIcon from '@mui/icons-material/Javascript';
 import Box from '@mui/material/Box';
+import Link from '@mui/material/Link';
 
 
 
@@ -34,7 +36,7 @@ export function Career() {
           Career Goals
       </Typography>
       <Typography variant="p">
-        Complete <a href="https://www.codecademy.com">Codecademy</a> Full 
+        Complete <Link href="https://www.codecademy.com">Codecademy</Link> Full 
         Stack Career Path and pursue a 
         career in web development.                        
       </Typography>
@@ -108,6 +110,14 @@ export function Career() {
           </ListItemIcon>
           <ListItemText>
             Material UI
+          </ListItemText>   
+        </ListItem>
+        <ListItem>
+          <ListItemIcon>
+            <GitHubIcon />
+          </ListItemIcon>
+          <ListItemText>
+            <Link href="https://github.com/richiehales/richie-portfolio">Git</Link>
           </ListItemText>   
         </ListItem>
       </List>
