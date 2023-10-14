@@ -17,7 +17,7 @@ const imageContainerStyle = {
 
 const textOnImageStyle = {
   position: 'absolute',
-  top: '15%',
+  top: '10%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
   padding: '10px',
@@ -33,7 +33,7 @@ export function About() {
   return (
     <Container>
       <Typography
-        variant="h3"
+        variant="h4"
         gutterBottom
         color="textSecondary"
         align="center"
@@ -44,10 +44,9 @@ export function About() {
         <Image src={laptop} alt="Laptop" />
         <div style={textOnImageStyle}>
           <Typography
-            variant="h3"
+            variant="h4"
             style={textColor} 
           >
-            Richie Hales <br/>
             Web Developer
           </Typography>
         </div>

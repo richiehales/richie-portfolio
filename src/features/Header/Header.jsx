@@ -53,8 +53,7 @@ export function Header(props) {
             size="large"
             edge="start"
             color="inherit"
-            aria-label="menu"
-            sx={{ mr: 2 }}
+            aria-label="menu"            
             onClick={handleClick}
           >
             <MenuIcon />
@@ -85,7 +84,7 @@ export function Header(props) {
               </Button>
             </ButtonGroup>
           </Menu>
-          <Typography variant="h5" component="div" sx={{ flexGrow: 1 }}>
+          <Typography variant="h4" component="div" sx={{ flexGrow: 1, textAlign: 'center' }}>
             Richie Hales
           </Typography>
           <IconButton

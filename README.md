@@ -27,3 +27,8 @@
 
 1. <https://www.youtube.com/watch?v=0KEpWHtG10M/>
 
+## To Do
+
+1. Link to CV (maybe PDF)
+2. Contact Page
+3. Projects page
