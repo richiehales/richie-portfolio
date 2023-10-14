@@ -11,7 +11,6 @@ import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 
 
-
 export function Career() {
 
   return(
@@ -19,10 +18,11 @@ export function Career() {
       <Typography
         variant="h5"
         align="center"
+   
         >
           Current Job Role
       </Typography>
-      <Typography variant="p">
+      <Typography variant="p" color="textSecondary">
         Electrical Controls Engineer. Programming
         PLCs, HMI's & servo drives. Provide 
         detailed costings to customer and produce
@@ -35,8 +35,8 @@ export function Career() {
         >
           Career Goals
       </Typography>
-      <Typography variant="p">
-        Complete <Link href="https://www.codecademy.com">Codecademy</Link> Full 
+      <Typography variant="p" color="textSecondary">
+        Complete <Link href="https://www.codecademy.com" color="textSecondary">Codecademy</Link> Full 
         Stack Career Path and pursue a 
         career in web development.                        
       </Typography>

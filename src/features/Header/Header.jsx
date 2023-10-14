@@ -12,7 +12,8 @@ import ButtonGroup from "@mui/material/ButtonGroup";
 import MenuIcon from '@mui/icons-material/Menu';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
-import HomeIcon from '@mui/icons-material/Home'
+import HomeIcon from '@mui/icons-material/Home';
+
 
 function HideOnScroll(props) {
   const { children } = props;
@@ -46,7 +47,7 @@ export function Header(props) {
     <React.Fragment>
       <CssBaseline />
       <HideOnScroll {...props}>
-        <AppBar>
+      <AppBar>
         <Toolbar>
           <IconButton
             size="large"

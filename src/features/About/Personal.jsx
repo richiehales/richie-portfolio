@@ -26,7 +26,7 @@ export function Personal() {
       >
         About Me
       </Typography>
-      <Typography variant="p">
+      <Typography variant="p" color="textSecondary">
         An enthusiastic professional individual who is seeking a 
         new challenging career after many years of working as a 
         competent electrical engineer with a comprehensive 
@@ -50,7 +50,8 @@ export function Personal() {
           <Grid item xs={12} md={6}>
             <Typography
               variant="h5"
-              align="center">
+              align="center"
+            >
               Hobbies
             </Typography>
             <List>
