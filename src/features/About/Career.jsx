@@ -20,13 +20,11 @@ export function Career() {
         >
           Current Job Role
       </Typography>
-      <Typography
-        variant="p"
-        >
-          Electrical Controls Engineer. Programming
-          PLCs, HMI's & servo drives. Provide 
-          detailed costings to customer and produce
-          electrical drawings with manuals for system.                        
+      <Typography variant="p">
+        Electrical Controls Engineer. Programming
+        PLCs, HMI's & servo drives. Provide 
+        detailed costings to customer and produce
+        electrical drawings with manuals for system.                        
       </Typography>
       <Box mb={4} />
       <Typography
@@ -35,11 +33,10 @@ export function Career() {
         >
           Career Goals
       </Typography>
-      <Typography
-        variant="p">
-          Complete <a href="https://www.codecademy.com">Codecademy</a> Full 
-          Stack Career Path and pursue a 
-          career in web development.                        
+      <Typography variant="p">
+        Complete <a href="https://www.codecademy.com">Codecademy</a> Full 
+        Stack Career Path and pursue a 
+        career in web development.                        
       </Typography>
       <Box mb={4} />
       <Typography
