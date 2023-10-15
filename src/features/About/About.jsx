@@ -4,10 +4,8 @@ import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import Image from 'mui-image';
 import laptop from './images/laptop.JPG';
-import profilepic from './images/profilepic.JPG';
-import code from './images/code.JPG';
 import Box from '@mui/material/Box';
-import Grid from '@mui/material/Grid';
+
 
 
 const imageContainerStyle = {
@@ -52,22 +50,10 @@ export function About() {
         </div>
       </div>
       <Box mb={4} />
-      <Box sx={{ flexGrow: 1 }}>
-        <Grid container spacing={2}>
-          <Grid item xs={12} md={8} >
-          <Image src={code} alt="code" height={'46rem'}/>
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Career />      
-          </Grid>
-          <Grid item xs={12} md={8}>
-            <Personal />
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Image src={profilepic} alt="code" height={'33.5rem'}/>
-          </Grid>
-        </Grid>
-      </Box>      
+      <Career />
+      <Personal />
+      
+           
     </Container>
   )
 }
