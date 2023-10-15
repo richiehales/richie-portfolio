@@ -30,6 +30,7 @@ const textColor = {
 export function About() {
   return (
     <Container>
+      <Box mb={4} />
       <Typography
         variant="h4"
         gutterBottom
@@ -38,6 +39,7 @@ export function About() {
       >
         About
       </Typography>
+      <Box mb={4} />
       <div style={imageContainerStyle}>
         <Image src={laptop} alt="Laptop" />
         <div style={textOnImageStyle}>
@@ -49,11 +51,10 @@ export function About() {
           </Typography>
         </div>
       </div>
-      <Box mb={4} />
+      <Box mb={8} />
       <Career />
-      <Personal />
-      
-           
+      <Box mb={8} />
+      <Personal />    
     </Container>
   )
 }

@@ -7,7 +7,7 @@ import logo from './images/logo.JPG';
 
 
 export function Footer() {
-  return(
+  return (
     <div>
     <Box mb={4} />
       <AppBar position='static'>
