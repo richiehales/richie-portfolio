@@ -29,15 +29,19 @@ export function RedditApp() {
 
   return (
     <div>
-      <Typography                     
-        variant="h5"
-        gutterBottom
-        align="center">
-          Simplified Reddit App
-      </Typography>
+      <Link href="https://richie-reddit-app.netlify.app/">
+        <Typography                     
+          variant="h5"
+          gutterBottom
+          align="center">
+            Simplified Reddit App
+        </Typography>
+      </Link>
       <Grid container spacing={2}>
         <Grid item xs={12} md={12} >
+        <Link href="https://richie-reddit-app.netlify.app/">
           <Image src={redditApp} alt="Reddit App" style={imageStyle}/>
+          </Link>
         </Grid>
       
         <Box mb={8} />
@@ -156,7 +160,7 @@ export function RedditApp() {
                 4. Invesigate possibility of user logging into their account and adding comments
               </ListItemText>      
             </ListItem>
-          </List>            
+          </List>          
         </Grid>      
         
         <Grid item xs={12} md={7} >
