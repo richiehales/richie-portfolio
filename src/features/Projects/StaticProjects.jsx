@@ -14,8 +14,8 @@ import BasicHTML2 from './images/BasicHTML2.JPG'
 
 
 const imageStyle = {
-  height: '30rem', 
-  width: 'auto', 
+  maxWidth: '100%', // Ensure the image doesn't exceed its container width
+  height: 'auto', // Maintain the image's aspect ratio 
 };
 
 export function StaticProjects() {
@@ -64,9 +64,8 @@ export function StaticProjects() {
         </List>
       </Grid>
       <Grid item xs={12} md={4} >
-        <Image src={BasicHTML2} alt="BasicHTML2" style={imageStyle}/>
-      </Grid>
-    
+        <Image src={BasicHTML2} alt="BasicHTML2" style={imageStyle}/>        
+      </Grid>    
     </Grid>
 
   )

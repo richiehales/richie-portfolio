@@ -13,7 +13,21 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import HomeIcon from '@mui/icons-material/Home';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
 
+
+
+const theme = createTheme();
+
+theme.typography.h4 = {
+  fontSize: '1.2rem',
+  '@media (min-width:600px)': {
+    fontSize: '1.5rem',
+  },
+  [theme.breakpoints.up('md')]: {
+    fontSize: '2rem',
+  },
+};
 
 function HideOnScroll(props) {
   const { children } = props;
@@ -84,9 +98,11 @@ export function Header(props) {
               </Button>
             </ButtonGroup>
           </Menu>
-          <Typography variant="h4" component="div" sx={{ flexGrow: 1, textAlign: 'center' }}>
-            Richie Hales
-          </Typography>
+          <ThemeProvider theme={theme}>
+            <Typography variant="h4" component="div" sx={{ flexGrow: 1, textAlign: 'center' }}>
+              Richie Hales
+            </Typography>
+          </ThemeProvider>
           <IconButton
             href="/"
             size="large"
