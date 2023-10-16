@@ -1,3 +1,4 @@
+import { RedditTesting } from "./RedditTesting";
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import Typography from "@mui/material/Typography";
@@ -12,9 +13,7 @@ import JavascriptIcon from '@mui/icons-material/Javascript';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import Image from 'mui-image'
 import redditApp from './images/redditApp.JPG'
-import testingResults from './images/testingResults.JPG';
-import testingOverview from './images/testingOverview.JPG';
-import lighthouse from './images/lighthouse.JPG';
+
 
 
 
@@ -161,46 +160,7 @@ export function RedditApp() {
         </Grid>      
         
         <Grid item xs={12} md={7} >
-          <Grid item xs={12} md={12} >
-            <Typography                     
-              variant="h5"
-              gutterBottom
-              align="center">
-                Testing
-            </Typography>
-            <Image src={testingResults} alt="Reddit App" style={imageStyle}/>        
-          </Grid>
-          <Box mb={2} />
-          <Grid container spacing={2}>
-            <Box mb={6} />
-              <Grid item xs={12} md={6} >
-                <Image src={testingOverview} alt="Reddit App" style={imageStyle}/>
-              </Grid>
-              <Grid item xs={12} md={6} >
-                <Typography
-                  variant="h5"
-                  align="center">
-                    Test Suites
-                </Typography>
-                <Typography variant="p" color="textSecondary">
-                  There are 20 tests in total. They test the components 
-                  renders the correct data and actions are dispatched to Redux 
-                  correctly.                                  
-                </Typography> 
-              </Grid>
-              <Grid container spacing={2}>
-              <Grid item xs={12} md={12} >
-                <Box mb={8} />
-                <Typography
-                  variant="h5"
-                  align="center">
-                    Lighthouse Report
-                </Typography>
-                <Image src={lighthouse} alt="Reddit App" style={imageStyle}/>
-                <Box mb={8} />
-              </Grid>
-            </Grid>
-          </Grid>
+          <RedditTesting />
         </Grid>   
       </Grid>
     </div>
