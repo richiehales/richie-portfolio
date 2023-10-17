@@ -5,6 +5,7 @@ import Box from '@mui/material/Box';
 import Image from 'mui-image';
 import logo from './images/logo.JPG';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import Grid from '@mui/material/Grid';
 
 
 const theme = createTheme();
@@ -31,17 +32,31 @@ export function Footer() {
             <Typography
               variant="h6"            
               align="center"
-              sx={{ flexGrow: 1 }}
+              sx={{ 
+                flexGrow: 1,
+                display: {
+                  xs: 'none',
+                  md: 'block',
+                }
+              }}
             >
               Richie Hales
             </Typography>
           </ThemeProvider> 
-          <Image src={logo} alt="logo" height={'3rem'} width={''}/>
+          <Grid container alignItems="center" justifyContent="center">
+            <Image src={logo} alt="logo" height={'3rem'} width={''} />
+          </Grid>
           <ThemeProvider theme={theme}>
             <Typography
               variant="h6"            
               align="center"
-              sx={{ flexGrow: 1 }}
+              sx={{ 
+                flexGrow: 1,
+                display: {
+                  xs: 'none',
+                  md: 'block',
+                }              
+              }}
             >
               Web Developer
             </Typography>
