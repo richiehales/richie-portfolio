@@ -58,8 +58,9 @@ export function RedditApp() {
             App. <Link href="https://www.reddit.com/" color="textSecondary">Reddit App</Link>. The 
             subreddits are pulled from the reddit site and mapped to buttons
             displayed on the left hand side. The subreddit buttons can be clicked
-            and posts for that subreddit are displayed in a component on the right hand site. Comments 
-            for each post can be displayed by clicking 'comments' button.                                      
+            and posts for that subreddit are displayed in a component on the right hand side. Comments 
+            for each post can be displayed by clicking 'comments' button which are then displayed in a 
+            comments component using the browser router.                                      
           </Typography>
           <Box mb={2} />
           <Typography variant="p" color="textSecondary">
