@@ -54,17 +54,17 @@ export function RedditApp() {
               Reddit - Richie Edition
           </Typography>
           <Typography variant="p" color="textSecondary">
-            A simplified version of the Reddit App.
-            the <Link href="https://www.reddit.com/" color="textSecondary">Reddit App</Link>. The 
+            A simplified version of the Reddit
+            App. <Link href="https://www.reddit.com/" color="textSecondary">Reddit App</Link>. The 
             subreddits are pulled from the reddit site and mapped to buttons
             displayed on the left hand side. The subreddit buttons can be clicked
-            and posts are displayed in a component on the right hand site. Comments 
+            and posts for that subreddit are displayed in a component on the right hand site. Comments 
             for each post can be displayed by clicking 'comments' button.                                      
           </Typography>
           <Box mb={2} />
           <Typography variant="p" color="textSecondary">
             There is a search field in the header that searches
-            and displays the results in the posts component.                                     
+            the reddit website and displays the results in the posts component.                                     
           </Typography>
           <Box mb={24} />
           <Typography
