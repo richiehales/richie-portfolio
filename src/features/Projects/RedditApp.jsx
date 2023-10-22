@@ -54,8 +54,7 @@ export function RedditApp() {
               Reddit - Richie Edition
           </Typography>
           <Typography variant="p" color="textSecondary">
-            A simplified version of the Reddit
-            App. <Link href="https://www.reddit.com/" color="textSecondary">Reddit App</Link>. The 
+            A simplified version of the <Link href="https://www.reddit.com/" color="textSecondary">Reddit App.</Link> The 
             subreddits are pulled from the reddit site and mapped to buttons
             displayed on the left hand side. The subreddit buttons can be clicked
             and posts for that subreddit are displayed in a component on the right hand side. Comments 

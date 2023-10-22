@@ -8,9 +8,9 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import HtmlIcon from '@mui/icons-material/Html';
 import CssIcon from '@mui/icons-material/Css';
-import Image from 'mui-image'
-import BasicHTML1 from './images/BasicHTML1.JPG'
-import BasicHTML2 from './images/BasicHTML2.JPG'
+import Image from 'mui-image';
+import BasicHTML1 from './images/BasicHTML1.JPG';
+import BasicHTML2 from './images/BasicHTML2.JPG';
 
 
 const imageStyle = {
