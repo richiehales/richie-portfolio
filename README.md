@@ -7,6 +7,12 @@
 4. git branch -M main
 5. git push -u origin main
 
+# Redirect
+
+1. File required in public folder _redirect with
+  /*    /index.html    200
+  to allow page routing on Netlify
+
 ## React Router
 
 1. npm install react-router-dom
@@ -23,12 +29,6 @@
 7. import '@fontsource/roboto/500.css';
 8. import '@fontsource/roboto/700.css';
 
-## Net Ninja
-
-1. <https://www.youtube.com/watch?v=0KEpWHtG10M/>
-
 ## To Do
 
 1. Link to CV (maybe PDF)
-2. Contact Page
-3. Projects page
