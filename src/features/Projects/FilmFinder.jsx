@@ -43,7 +43,6 @@ export function FilmFinder() {
             autoPlay
             loop
             muted
-            poster="https://assets.codepen.io/6093409/river.jpg"
             style={imageStyle}
           >
             <source
