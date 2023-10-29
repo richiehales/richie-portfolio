@@ -44,7 +44,9 @@ export function RedditApp() {
           </Link>
         </Grid>
       
-        <Box mb={8} />
+        <Grid item xs={12} md={12}>
+          <Box sx={{ backgroundColor: 'grey', height: '0.5rem' }} mb={8} />
+        </Grid>
 
         <Grid item xs={12} md={5} >
           <Typography                     

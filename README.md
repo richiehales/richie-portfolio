@@ -19,15 +19,17 @@
 
 ## Material UI
 
-1. npm install @mui/material @emotion/react @emotion/styled.
-2. npm install @mui/icons-material.
-3. npm install @fontsource/roboto.
+1. npm install @mui/material @emotion/react @emotion/styled
+2. npm install @mui/icons-material
+3. npm install @fontsource/roboto
 4. npm i mui-image
 
-5. import '@fontsource/roboto/300.css';
-6. import '@fontsource/roboto/400.css';
-7. import '@fontsource/roboto/500.css';
-8. import '@fontsource/roboto/700.css';
+### Below in index.js
+
+1. import '@fontsource/roboto/300.css';
+2. import '@fontsource/roboto/400.css';
+3. import '@fontsource/roboto/500.css';
+4. import '@fontsource/roboto/700.css';
 
 ## To Do
 

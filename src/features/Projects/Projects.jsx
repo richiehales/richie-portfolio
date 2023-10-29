@@ -1,6 +1,6 @@
 import React from "react";
-import { StaticProjects } from "./StaticProjects";
 import { RedditApp } from "./RedditApp";
+import { FilmFinder } from "./FilmFinder";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import Box from '@mui/material/Box';
@@ -20,8 +20,8 @@ export function Projects() {
           Projects
       </Typography>
       <Box mb={4} />
-      <StaticProjects />
-      <Box mb={8} />
+      <FilmFinder />
+      <Box sx={{ backgroundColor: 'black', height: '2rem' }} mb={8} mt={8} />
       <RedditApp />
     </Container>
   )
