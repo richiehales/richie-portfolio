@@ -43,7 +43,7 @@ const textColor = {
 
 export function About() {
   return (
-    <Container>
+    <Container maxWidth="xl">
       <Box mb={4} />
       <Typography
         variant="h4"

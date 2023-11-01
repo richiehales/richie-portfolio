@@ -15,8 +15,6 @@ import movieFinder from './images/movieFinder.mp4'
 
 
 
-
-
 const imageStyle = {
   maxWidth: '100%', // Ensure the image doesn't exceed its container width
   height: 'auto', // Maintain the image's aspect ratio
@@ -62,11 +60,11 @@ export function FilmFinder() {
             variant="h5"
             gutterBottom
             align="center">
-              Film Finder
+              Film Finder Project
           </Typography>
           <Typography variant="p" color="textSecondary">
-            An app for searchng  <Link href="https://www.omdbapi.com/" color="textSecondary">OMDb API</Link> API 
-            and mapping results to Search component. The movies can then be added to and removed from a Watchlist 
+            An app for searchng  <Link href="https://www.omdbapi.com/" color="textSecondary">OMDb API</Link> and 
+            mapping results to Search component. The movies can then be added to and removed from a Watchlist 
             component.                               
           </Typography>
           <Box mb={2} />
@@ -134,7 +132,7 @@ export function FilmFinder() {
                 <GitHubIcon />
               </ListItemIcon>
               <ListItemText>
-                <Link href="https://github.com/richiehales/richie-reddit-app">Git</Link>
+                <Link href="https://github.com/richiehales/film-finder">Git</Link>
               </ListItemText>
             </ListItem>
           </List>

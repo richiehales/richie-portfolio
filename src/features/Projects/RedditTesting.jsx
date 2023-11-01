@@ -23,7 +23,7 @@ export function RedditTesting() {
           variant="h5"
           gutterBottom
           align="center">
-            Testing
+            Reddit Testing
         </Typography>
         <Image src={testingResults} alt="Testing Results" style={imageStyle}/>        
       </Grid>        

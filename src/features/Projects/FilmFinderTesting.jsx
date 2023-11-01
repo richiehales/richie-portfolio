@@ -22,7 +22,7 @@ export function FilmFinderTesting() {
           variant="h5"
           gutterBottom
           align="center">
-            Testing
+            Film Finder Testing
         </Typography>              
       </Grid>        
     
