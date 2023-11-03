@@ -16,10 +16,10 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import movieFinder from './images/movieFinder.mp4'
 
 
-
 const imageStyle = {
   maxWidth: '100%', // Ensure the image doesn't exceed its container width
   height: 'auto', // Maintain the image's aspect ratio
+  border: 'solid darkgray 1px'
 };
 
 const cardStyle = {
