@@ -22,12 +22,15 @@ const imageStyle = {
   height: 'auto', // Maintain the image's aspect ratio
 };
 
+const cardStyle = {
+  backgroundColor: 'lightgray', // Change the color to your desired background color
+  // Add any other styles you need
+};
 
-
-export function FilmFinder() {
+export function FilmFinder() {  
 
   return (
-    <Card variant="outlined">
+    <Card variant="outlined" style={cardStyle}>
       <CardContent>    
         <Link href="https://movie-finder-richie.netlify.app/">
           <Typography                     
@@ -54,9 +57,7 @@ export function FilmFinder() {
             </Link>
           </Grid>
         
-          <Grid item xs={12} md={12}>
-            <Box sx={{ backgroundColor: 'lightblue', height: '0.5rem' }} mb={8} />
-          </Grid>
+          
 
           <Grid item xs={12} md={5} >
             <Typography                     

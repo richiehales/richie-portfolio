@@ -11,6 +11,7 @@ import lighthouse from './images/lighthouse.JPG';
 const imageStyle = {
   maxWidth: '100%', // Ensure the image doesn't exceed its container width
   height: 'auto', // Maintain the image's aspect ratio
+  border: 'solid darkgray 1px'
 };
 
 
@@ -46,7 +47,8 @@ export function FilmFinderTesting() {
         <Box mb={8} />
         <Typography
           variant="h5"
-          align="center">
+          align="center"
+          mb={-5}>
             Lighthouse Report
         </Typography>
         <Image src={lighthouse} alt="Reddit App" style={imageStyle}/>

@@ -21,7 +21,7 @@ export function Projects() {
       </Typography>
       <Box mb={4} />
       <FilmFinder />
-      <Box sx={{ backgroundColor: 'black', height: '2rem' }} mb={8} mt={8} />
+      <Box mb={8} />
       <RedditApp />
     </Container>
   )

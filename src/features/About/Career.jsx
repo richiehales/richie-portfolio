@@ -18,6 +18,11 @@ import code from './images/code.JPG';
 
 export function Career() {
 
+  const cardStyle = {
+    backgroundColor: 'lightgray', // Change the color to your desired background color
+    // Add any other styles you need
+  };
+
   return (  
     
     <Grid container spacing={2}>        
@@ -26,7 +31,7 @@ export function Career() {
         <Image src={code} alt="code" height={'46rem'}/>
       </Grid>
       <Grid item xs={12} md={4}>
-        <Card variant="outlined">
+        <Card variant="outlined" style={cardStyle}>
           <CardContent>
             <Typography
               variant="h5"

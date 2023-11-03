@@ -18,19 +18,21 @@ import redditApp from './images/redditApp.JPG'
 
 
 
-
-
 const imageStyle = {
   maxWidth: '100%', // Ensure the image doesn't exceed its container width
   height: 'auto', // Maintain the image's aspect ratio
+  border: 'solid darkgray 1px'
 };
 
-
+const cardStyle = {
+  backgroundColor: 'lightgray', // Change the color to your desired background color
+  // Add any other styles you need
+};
 
 export function RedditApp() {
 
   return (
-    <Card variant="outlined">
+    <Card variant="outlined" style={cardStyle}>
       <CardContent>    
         <Link href="https://richie-reddit-app.netlify.app/">
           <Typography                     
@@ -48,7 +50,7 @@ export function RedditApp() {
           </Grid>
         
           <Grid item xs={12} md={12}>
-            <Box sx={{ backgroundColor: 'grey', height: '0.5rem' }} mb={8} />
+            <Box mb={8} />
           </Grid>
 
           <Grid item xs={12} md={5} >

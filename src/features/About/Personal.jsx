@@ -17,15 +17,19 @@ import HikingIcon from '@mui/icons-material/Hiking';
 import DirectionsRunIcon from '@mui/icons-material/DirectionsRun';
 
 
+const cardStyle = {
+  backgroundColor: 'lightgray', // Change the color to your desired background color
+  // Add any other styles you need
+};
 
 
 export function Personal() {
 
-  return (
+    return (
     
     <Grid container spacing={2}>      
       <Grid item xs={12} md={8}>
-        <Card variant="outlined">
+        <Card variant="outlined" style={cardStyle}>
           <CardContent>                
             <Typography
               variant="h5"
