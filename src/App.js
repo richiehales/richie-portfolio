@@ -1,4 +1,3 @@
-import './App.css';
 import { Header } from './features/Header/Header';
 import { Routes, Route } from 'react-router-dom';
 import { About } from './features/About/About';
