@@ -33,153 +33,153 @@ export function FilmFinder() {
   return (
     <Card variant="outlined" style={cardStyle}>
       <CardContent>
-      <CardMedia>    
-        <Link href="https://movie-finder-richie.netlify.app/">
-          <Typography                     
-            variant="h5"
-            gutterBottom
-            align="center">
-              Film Finder
-          </Typography>
-        </Link>
-        <Grid container spacing={2}>
-          <Grid item xs={12} md={12} >
-            <Link href="https://movie-finder-richie.netlify.app/">
-              <video
-                autoPlay
-                loop
-                muted
-                style={imageStyle}
-              >
-                <source
-                  src={movieFinder}
-                  type="video/mp4"
-                />
-              </video>
-              
-            </Link>
-          </Grid>
-        
-          
-
-          <Grid item xs={12} md={5} >
+        <CardMedia>    
+          <Link href="https://movie-finder-richie.netlify.app/">
             <Typography                     
               variant="h5"
               gutterBottom
               align="center">
-                Film Finder Project
+                Film Finder
             </Typography>
-            <Typography variant="p" color="textSecondary">
-              An app for searchng  <Link href="https://www.omdbapi.com/" color="textSecondary">OMDb API</Link> and 
-              mapping results to Search component. The movies can then be added to and removed from a Watchlist 
-              component.                               
-            </Typography>
-            <Box mb={2} />
-            <Typography variant="p" color="textSecondary">
-              There is a badge in the AppBar to indicate number of movies added to watchlist which is 
-              reset when these additions are viewed.                                      
-            </Typography>
-            <Box mb={24} />
-            <Typography
-              variant="h5"
-              align="center">
-                Technologies Used
-            </Typography>         
-            <List>
-              <ListItem>
-                <ListItemIcon>
-                  <HtmlIcon />
-                </ListItemIcon>
-                <ListItemText>
-                  HTML
-                </ListItemText>      
-              </ListItem>
-              <ListItem>
-                <ListItemIcon>
-                  <CssIcon />
-                </ListItemIcon>
-                <ListItemText>
-                  Material UI
-                </ListItemText>      
-              </ListItem>
-              <ListItem>
-              <ListItemIcon>
-                <JavascriptIcon />
-              </ListItemIcon>
-              <ListItemText>
-                JavaScript
-              </ListItemText>      
-              </ListItem>
-              <ListItem>
-                <ListItemIcon>
-                  <JavascriptIcon />
-                </ListItemIcon>
-                <ListItemText>
-                  React
-                </ListItemText>      
-              </ListItem>
-              <ListItem>
-                <ListItemIcon>
-                  <JavascriptIcon />
-                </ListItemIcon>
-                <ListItemText>
-                  React Testing Library (RTL)
-                </ListItemText>      
-              </ListItem>
-              <ListItem>
-                <ListItemIcon>
-                  <JavascriptIcon />
-                </ListItemIcon>
-                <ListItemText>
-                  Redux
-                </ListItemText>      
-              </ListItem>         
-              <ListItem>
-                <ListItemIcon>
-                  <GitHubIcon />
-                </ListItemIcon>
-                <ListItemText>
-                  <Link href="https://github.com/richiehales/film-finder">Git</Link>
-                </ListItemText>
-              </ListItem>
-            </List>
-            <Box mb={24} />
-            <Typography
-              variant="h5"
-              align="center">
-                Improvements
-            </Typography>
-            <Typography variant="p" color="textSecondary">
-              Future improvements I plan to implement include:                                 
-            </Typography>
-            <List>
-              <ListItem>
-                <ListItemText>
-                  1. Improve colour schemes
-                </ListItemText>      
-              </ListItem>
-              <ListItem>
-                <ListItemText>
-                  2. Display popup when movie already exists in watchlist
-                </ListItemText>      
-              </ListItem>
-              <ListItem>
-                <ListItemText>
-                  3. Connecting to server/database
-                </ListItemText>      
-              </ListItem>
-              <ListItem>
-                <ListItemText>
-                  4. Invesigate possibility of user signup/login
-                </ListItemText>      
-              </ListItem>
-            </List>          
-          </Grid>      
+          </Link>
+          <Grid container spacing={2}>
+            <Grid item xs={12} md={12} >
+              <Link href="https://movie-finder-richie.netlify.app/">
+                <video
+                  autoPlay
+                  loop
+                  muted
+                  style={imageStyle}
+                >
+                  <source
+                    src={movieFinder}
+                    type="video/mp4"
+                  />
+                </video>
+                
+              </Link>
+            </Grid>
           
-          <Grid item xs={12} md={7} >
-            <FilmFinderTesting />
-          </Grid>   
-        </Grid>
+            
+
+            <Grid item xs={12} md={5} >
+              <Typography                     
+                variant="h5"
+                gutterBottom
+                align="center">
+                  Film Finder Project
+              </Typography>
+              <Typography variant="p" color="textSecondary">
+                An app for searchng  <Link href="https://www.omdbapi.com/" color="textSecondary">OMDb API</Link> and 
+                mapping results to Search component. The movies can then be added to and removed from a Watchlist 
+                component.                               
+              </Typography>
+              <Box mb={2} />
+              <Typography variant="p" color="textSecondary">
+                There is a badge in the AppBar to indicate number of movies added to watchlist which is 
+                reset when these additions are viewed.                                      
+              </Typography>
+              <Box mb={24} />
+              <Typography
+                variant="h5"
+                align="center">
+                  Technologies Used
+              </Typography>         
+              <List>
+                <ListItem>
+                  <ListItemIcon>
+                    <HtmlIcon />
+                  </ListItemIcon>
+                  <ListItemText>
+                    HTML
+                  </ListItemText>      
+                </ListItem>
+                <ListItem>
+                  <ListItemIcon>
+                    <CssIcon />
+                  </ListItemIcon>
+                  <ListItemText>
+                    Material UI
+                  </ListItemText>      
+                </ListItem>
+                <ListItem>
+                <ListItemIcon>
+                  <JavascriptIcon />
+                </ListItemIcon>
+                <ListItemText>
+                  JavaScript
+                </ListItemText>      
+                </ListItem>
+                <ListItem>
+                  <ListItemIcon>
+                    <JavascriptIcon />
+                  </ListItemIcon>
+                  <ListItemText>
+                    React
+                  </ListItemText>      
+                </ListItem>
+                <ListItem>
+                  <ListItemIcon>
+                    <JavascriptIcon />
+                  </ListItemIcon>
+                  <ListItemText>
+                    React Testing Library (RTL)
+                  </ListItemText>      
+                </ListItem>
+                <ListItem>
+                  <ListItemIcon>
+                    <JavascriptIcon />
+                  </ListItemIcon>
+                  <ListItemText>
+                    Redux
+                  </ListItemText>      
+                </ListItem>         
+                <ListItem>
+                  <ListItemIcon>
+                    <GitHubIcon />
+                  </ListItemIcon>
+                  <ListItemText>
+                    <Link href="https://github.com/richiehales/film-finder">Git</Link>
+                  </ListItemText>
+                </ListItem>
+              </List>
+              <Box mb={24} />
+              <Typography
+                variant="h5"
+                align="center">
+                  Improvements
+              </Typography>
+              <Typography variant="p" color="textSecondary">
+                Future improvements I plan to implement include:                                 
+              </Typography>
+              <List>
+                <ListItem>
+                  <ListItemText>
+                    1. Improve colour schemes
+                  </ListItemText>      
+                </ListItem>
+                <ListItem>
+                  <ListItemText>
+                    2. Display popup when movie already exists in watchlist
+                  </ListItemText>      
+                </ListItem>
+                <ListItem>
+                  <ListItemText>
+                    3. Connecting to server/database
+                  </ListItemText>      
+                </ListItem>
+                <ListItem>
+                  <ListItemText>
+                    4. Invesigate possibility of user signup/login
+                  </ListItemText>      
+                </ListItem>
+              </List>          
+            </Grid>      
+            
+            <Grid item xs={12} md={7} >
+              <FilmFinderTesting />
+            </Grid>   
+          </Grid>
         </CardMedia>    
       </CardContent>
     </Card>
