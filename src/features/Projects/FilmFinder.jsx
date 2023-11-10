@@ -3,6 +3,7 @@ import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
 import Typography from "@mui/material/Typography";
 import Link from '@mui/material/Link';
 import List from '@mui/material/List';
@@ -31,7 +32,8 @@ export function FilmFinder() {
 
   return (
     <Card variant="outlined" style={cardStyle}>
-      <CardContent>    
+      <CardContent>
+      <CardMedia>    
         <Link href="https://movie-finder-richie.netlify.app/">
           <Typography                     
             variant="h5"
@@ -54,6 +56,7 @@ export function FilmFinder() {
                   type="video/mp4"
                 />
               </video>
+              
             </Link>
           </Grid>
         
@@ -176,7 +179,8 @@ export function FilmFinder() {
           <Grid item xs={12} md={7} >
             <FilmFinderTesting />
           </Grid>   
-        </Grid>    
+        </Grid>
+        </CardMedia>    
       </CardContent>
     </Card>
   )
