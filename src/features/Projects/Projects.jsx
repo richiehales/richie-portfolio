@@ -1,4 +1,5 @@
 import React from "react";
+import { Ecommerce } from "./Ecommerce";
 import { RedditApp } from "./RedditApp";
 import { FilmFinder } from "./FilmFinder";
 import Typography from "@mui/material/Typography";
@@ -20,9 +21,11 @@ export function Projects() {
           Projects
       </Typography>
       <Box mb={4} />
-      <FilmFinder />
+      <Ecommerce />
       <Box mb={8} />
       <RedditApp />
+      <Box mb={4} />
+      <FilmFinder />
     </Container>
   )
 }
