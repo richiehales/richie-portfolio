@@ -7,6 +7,7 @@ import HtmlIcon from '@mui/icons-material/Html';
 import CssIcon from '@mui/icons-material/Css';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import JavascriptIcon from '@mui/icons-material/Javascript';
+import StorageIcon from '@mui/icons-material/Storage';
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
@@ -112,7 +113,7 @@ export function Career() {
               </ListItem>
               <ListItem>
                 <ListItemIcon>
-                  <JavascriptIcon />
+                  <StorageIcon />
                 </ListItemIcon>
                 <ListItemText>
                   PostgresQL
