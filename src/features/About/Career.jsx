@@ -107,7 +107,7 @@ export function Career() {
                   <JavascriptIcon />
                 </ListItemIcon>
                 <ListItemText>
-                  Node
+                  Node / Express
                 </ListItemText>      
               </ListItem>
               <ListItem>
@@ -115,7 +115,7 @@ export function Career() {
                   <JavascriptIcon />
                 </ListItemIcon>
                 <ListItemText>
-                  Express
+                  PostgresQL
                 </ListItemText>      
               </ListItem>
               <ListItem>

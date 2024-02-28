@@ -47,7 +47,7 @@ export function Personal() {
               handover. I am currently looking to change careers 
               to a software developer after recently starting to study 
               for a  BSc Computing and IT degree with the Open University. 
-              I have completed 55% of the Full-Stack Engineer course on 
+              I have completed 95% of the Full-Stack Engineer course on 
               Codecademy (covered HTML, CSS, Git, React, Redux, API calls, 
               node.js, Express.js etc).                        
             </Typography>

@@ -14,6 +14,8 @@ import EmailIcon from '@mui/icons-material/Email';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
+import richieCv from './images/richieCv.pdf'
 
 
 
@@ -71,6 +73,14 @@ export function Contact() {
               </ListItemIcon>
               <ListItemText>
                 <Link href="https://github.com/richiehales">GitHub</Link>
+              </ListItemText>      
+            </ListItem>
+            <ListItem button>
+              <ListItemIcon>
+                <PictureAsPdfIcon />
+              </ListItemIcon>
+              <ListItemText>
+              <Link href={richieCv} target="_blank" rel="noopener noreferrer">CV</Link>
               </ListItemText>      
             </ListItem>
         </List> 
